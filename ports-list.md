@@ -28,9 +28,15 @@
 | xz                | 5.6.4-r0    | OK                    |
 | zlib-ng-compat    | 2.2.4-r0    | OK                    |
 
+## Other
+
+| Name              | Version     | Note                  |
+| ----------------- | ----------- | --------------------- |
+| tzdb              | 2025b       | OK                    |
+
 ## TODO
 
-- Porting rom cbuild to nbuild (future pull request)
+- Make minor adjustments to nbuild src
 - Porting all source-bootstrap packages
 - Make https repo and github ci (infrastructure)
 - Porting base-system (future pull request)
