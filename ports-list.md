@@ -57,42 +57,40 @@
 | libcap            | 2.76-r0     | OK                    |
 | libedit           | 20240711-r0 | OK                    |
 | libexpat          | 2.7.1-r0    | OK                    |
-| libffi8           | 3.4.8-r0    | Check template        |
-| libtool           | 2.5.4-r2    | Make r0               |
+| libffi8           | 3.4.8-r0    | OK                    |
+| libtool           | 2.5.4-r2    | OK                    |
 | libxo             | 1.7.5-r0    | OK                    |
-| linux-headers     | 6.13.1-r0   | Check template        |
+| linux-headers     | 6.13.1-r0   | OK                    |
 | llvm              | 20.1.6-r0   | OK                    |
-| lua5.4            | 5.4.8-r0    | Check template        |
+| lua5.4            | 5.4.8-r0    | OK                    |
 | lz4               | 1.10.0-r0   | OK                    |
-| meson             | 1.8.2-r0    | Check template        |
+| meson             | 1.8.2-r0    | OK                    |
 | musl              | 1.2.5-r0    | OK                    |
 | musl-bsd-headers  | 0.1-r1      | OK                    |
 | ncurses           | 6.5-r1      | OK                    |
 | neveutils         | 14.3.0-r0   | OK                    |
-| ninja             | 1.13.0-r0   | Check template        |
-| openresolv        | 3.16.5-r0   | Check template        |
+| ninja             | 1.13.0-r0   | OK                    |
+| openresolv        | 3.16.5-r0   | OK                    |
 | openssl3          | 3.5.0-r0    | OK                    |
-| perl              | 5.40.2-r0   | Check template        |
-|perl-locale-gettext| 1.07-r2     | Make r0               |
-| pkgconf           | 2.4.3-r0    | Check template        |
-| python            | 3.13.3-r0   | Check template        |
-| python-build      | 1.2.2-r1    | Make r0               |
-| python-flit_core  | 3.12.0-r0   | Check template        |
-| python-installer  | 0.7.0-r3    | Check template        |
-| python-packaging  | 25.0-r0     | Check template        |
-| python-pycache    | 3.13.3-r0   | Check template        |
-| python-pyparsing  | 3.2.3-r0    | Check template        |
-| python-pyproject_hooks| 1.2.0-r1| Check template        |
-| python-setuptools | 78.1.0-r0   | Check template        |
-| python-tests      | 3.13.3-r0   | Check template        |
-| python-wheel      | 0.46.1-r0   | Check template        |
-| resolvconf        | 1.0-r0      | Check template        |
-| scdoc             | 1.11.3-r    | Check template        |
-| slibtool          | 0.6.1-r0    | Check template        |
-| sqlite            | 3.49.2-r    | Check template        |
-| texinfo           | 7.2-r0      | Check template        |
-| tzdb              | 2025b-r0    | Check template        |
-| ugetopt           | 2.38.99-r0  | Check template        |
+| perl              | 5.40.2-r0   | OK                    |
+|perl-locale-gettext| 1.07-r2     | OK                    |
+| pkgconf           | 2.4.3-r0    | OK                    |
+| python            | 3.13.3-r0   | OK                    |
+| python-build      | 1.2.2-r1    | OK                    |
+| python-flit_core  | 3.12.0-r0   | OK                    |
+| python-installer  | 0.7.0-r3    | OK                    |
+| python-packaging  | 25.0-r0     | OK                    |
+| python-pyparsing  | 3.2.3-r0    | OK                    |
+| python-pyproject_hooks| 1.2.0-r1| OK                    |
+| python-setuptools | 78.1.0-r0   | OK                    |
+| python-wheel      | 0.46.1-r0   | OK                    |
+| resolvconf        | 1.0-r0      | OK                    |
+| scdoc             | 1.11.3-r    | OK                    |
+| slibtool          | 0.6.1-r0    | OK                    |
+| sqlite            | 3.49.2-r    | OK                    |
+| texinfo           | 7.2-r0      | OK                    |
+| tzdb              | 2025b-r0    | OK                    |
+| ugetopt           | 2.38.99-r0  | OK                    |
 | zlib-ng-compat    | 2.2.4-r0    | OK                    |
 | zstd              | 1.5.7-r0    | OK                    |
 
