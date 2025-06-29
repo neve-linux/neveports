@@ -55,9 +55,7 @@ def chroot_check(force=False, error=True):
 def set_extras(elist):
     global _extra_pkgs
 
-# TODO: move base-cbuild to base-nbuild after
-# infrastructure and repo setup
-    _extra_pkgs = ["base-cbuild", *elist]
+    _extra_pkgs = ["base-nbuild", *elist]
 
 
 def get_world_base():

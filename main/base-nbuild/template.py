@@ -22,7 +22,7 @@ depends = [
 ]
 # bootstrap-llvm is temporary until next llvm release, don't feel like rebuild
 provides = [
-    "bootstrap:cbuild=9999-r0",
+    "bootstrap:nbuild=9999-r0",
     "bootstrap:llvm=9999-r0",
 ]
 replaces = ["apk-tools"]

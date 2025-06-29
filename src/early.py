@@ -33,7 +33,7 @@ def fire():
     runner.handle_options()
 
     # early initialization will set up paths and other
-    # stuff needed to import the rest of cbuild correctly
+    # stuff needed to import the rest of nbuild correctly
     runner.init_late()
 
     runner.fire()

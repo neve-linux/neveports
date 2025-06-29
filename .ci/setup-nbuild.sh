@@ -14,7 +14,7 @@ echo "=> Checking apk-tools..."
 grep "${APK_FILE}" sha256sums.txt|sha256sum --check
 rm -f sha256sums.txt || :
 
-echo "=> Setting up cbuild configuration..."
+echo "=> Setting up nbuild configuration..."
 cat << EOF > etc/config.ini
 [apk]
 command = $(pwd)/${APK_FILE}
@@ -25,15 +25,15 @@ allow_restricted = yes
 timing = yes
 EOF
 
-echo "=> Generating cbuild key..."
-python3.12 cbuild keygen
+echo "=> Generating nbuild key..."
+python3.12 nbuild keygen
 
 echo "=> Setting up ccache configuration..."
-mkdir -p cbuild_cache/ccache
+mkdir -p nbuild_cache/ccache
 printf "%s\n" \
     "absolute_paths_in_stderr = true" \
     "sloppiness = pch_defines,time_macros,file_stat_matches,file_stat_matches_ctime,random_seed,include_file_mtime" \
     "max_size = 1G" \
-    > cbuild_cache/ccache/ccache.conf
+    > nbuild_cache/ccache/ccache.conf
 
-echo "... done setting up cbuild."
+echo "... done setting up nbuild."

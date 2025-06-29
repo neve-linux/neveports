@@ -11,7 +11,7 @@
 #include <err.h>
 
 int main(int argc, char **argv) {
-    FILE *f = fopen("/tmp/cbuild-lld-args", "rb");
+    FILE *f = fopen("/tmp/nbuild-lld-args", "rb");
     if (!f) {
         goto do_exec;
     }

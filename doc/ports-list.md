@@ -7,7 +7,7 @@
 | acl               | 2.3.2-r0    | OK                    |
 | apk-tools         | 3.0.0_rc4-r1| OK                    |
 | attr              | 2.5.2-r0    | OK                    |
-| base-cbuild       | 0.1-r0      | Move to base-nbuild   |
+| base-nbuild       | 0.1-r0      | OK                    |
 | base-files        | 0.1-r0      | OK                    |
 | bzip2             | 1.0.8-r0    | OK                    |
 | debianutils       | 5.23.1-r0   | OK                    |
@@ -36,8 +36,9 @@
 | apk-tools         | 3.0.0_rc4-r0| OK                    |
 | attr              | 2.5.2-r0    | OK                    |
 | autoconf          | 2.72-r0     | OK                    |
+| autoconf-archive  | 2024.10.16-r0| OK                   |
 | automake          | 1.17-r0     | OK                    |
-| base-cbuild       | 0.1-r0      | Move to base-nbuild   |
+| base-nbuild       | 0.1-r0      | OK                    |
 | base-files        | 0.1-r0      | OK                    |
 | bc-gh             | 7.0.3-r1    | OK                    |
 | bluez-headers     | 5.83-r0     | OK                    |
@@ -63,6 +64,7 @@
 | linux-headers     | 6.13.1-r0   | OK                    |
 | llvm              | 20.1.6-r0   | OK                    |
 | lua5.4            | 5.4.8-r0    | OK                    |
+| lua5.4-zlib       | 1.3-r0      | OK                    |
 | lz4               | 1.10.0-r0   | OK                    |
 | meson             | 1.8.2-r0    | OK                    |
 | musl              | 1.2.5-r0    | OK                    |
@@ -86,6 +88,7 @@
 | python-wheel      | 0.46.1-r0   | OK                    |
 | resolvconf        | 1.0-r0      | OK                    |
 | scdoc             | 1.11.3-r    | OK                    |
+| sdtools           | 0.99.0-r0   | OK                    |
 | slibtool          | 0.6.1-r0    | OK                    |
 | sqlite            | 3.49.2-r    | OK                    |
 | texinfo           | 7.2-r0      | OK                    |

@@ -1,7 +1,7 @@
 to get around build_ext always deferring to the host sysconfig values, allow
 the most relevant ones to be overriden through the environment.
 
-see src/cbuild/build_style/python.py
+see src/nbuild/build_style/python.py
 
 --- a/setuptools/_distutils/command/build_ext.py
 +++ b/setuptools/_distutils/command/build_ext.py

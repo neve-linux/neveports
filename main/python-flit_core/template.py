@@ -22,7 +22,7 @@ def check(self):
 
 
 def install(self):
-    from cbuild.util import python
+    from nbuild.util import python
 
     self.do(
         "python",

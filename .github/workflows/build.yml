@@ -52,31 +52,31 @@ jobs:
           sudo apt-get update
           sudo apt-get install --no-install-recommends python3 ca-certificates openssl git bubblewrap wget
 
-      - name: Restore cbuild cache
-        id: cache-cbuild
+      - name: Restore nbuild cache
+        id: cache-nbuild
         uses: actions/cache/restore@v4
         with:
           path: |
-            ./cbuild_cache
+            ./nbuild_cache
             ./sources
-          key: ${{ runner.os }}-${{ runner.arch }}-cbuild-ci-cache-${{ github.run_id }}
+          key: ${{ runner.os }}-${{ runner.arch }}-nbuild-ci-cache-${{ github.run_id }}
           # checks prefix of cache stored below and grabs the one from the latest run_id that is
           # always saved. we do this because things like source fetch / dependencies don't care
           # about success.
           restore-keys: |
-            ${{ runner.os }}-${{ runner.arch }}-cbuild-ci-cache
+            ${{ runner.os }}-${{ runner.arch }}-nbuild-ci-cache
 
-      - name: Set up cbuild configuration
-        run: sh .ci/setup-cbuild.sh
+      - name: Set up nbuild configuration
+        run: sh .ci/setup-nbuild.sh
 
       - name: Build and test packages
-        run: python3.12 cbuild -W ${{ env.update_check }} -t bulk-pkg 'git:master..+!\[ci skip\]'
+        run: python3.12 nbuild -W ${{ env.update_check }} -t bulk-pkg 'git:master..+!\[ci skip\]'
 
-      - name: Save cbuild cache
+      - name: Save nbuild cache
         uses: actions/cache/save@v4
         if: ${{ !cancelled() }}
         with:
           path: |
-            ./cbuild_cache
+            ./nbuild_cache
             ./sources
-          key: ${{ runner.os }}-${{ runner.arch }}-cbuild-ci-cache-${{ github.run_id }}
+          key: ${{ runner.os }}-${{ runner.arch }}-nbuild-ci-cache-${{ github.run_id }}

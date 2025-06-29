@@ -2,7 +2,7 @@
 *.o
 __pycache__
 /bldroot*
-/cbuild_cache
+/nbuild_cache
 sources*
 packages*
 pkgstage*

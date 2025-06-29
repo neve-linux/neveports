@@ -14,7 +14,7 @@ options = ["!check"]
 
 # custom configure does not understand --sysroot
 def configure(self):
-    from cbuild.util import gnu_configure
+    from nbuild.util import gnu_configure
 
     gnu_configure.configure(self, sysroot=False)
 

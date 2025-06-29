@@ -9,14 +9,14 @@ is not based on any existing system and should not be considered a variant of an
 
 There are two authoritative documents on the system:
 
-* [`Usage.md`](Usage.md) is the reference for users. It covers usage of `nbuild` and its
+* [`Usage.md`](doc/Usage.md) is the reference for users. It covers usage of `nbuild` and its
   basic and advanced options as well as concepts and requirements.
-* [`Packaging.md`](Packaging.md) is the reference manual for packagers. It covers the API of the
+* [`Packaging.md`](doc/Packaging.md) is the reference manual for packagers. It covers the API of the
   system and guidelines for creating and modifying templates, but not usage.
 
 Most people looking to get involved with the project should read both.
 
-To get started, read [`Usage.md`](Usage.md) first.
+To get started, read [`Usage.md`](doc/Usage.md) first.
 
 ## Using nports with Neve
 
